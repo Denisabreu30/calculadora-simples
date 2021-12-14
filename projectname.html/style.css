@@ -1,0 +1,48 @@
+body{
+    background-color: darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display{
+    text-align: right;
+    background-color: #D6DBDF;
+    width: 250px;
+    border-radius: 10px 10px 0 0 ;
+    font-size: 30px;
+    padding: 15px;
+}
+
+button{
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #D6DBDF;
+    color: black;
+    font-size: 20px;
+}
+
+#r1-1{
+    width: 138px;
+}
+
+.r5-1 {
+    width: 138px;
+    border-radius: 0 0 0 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(178, 178, 178);
+}
+
+button:active{
+    background-color: rgb(136, 136, 136);
+}
+
+/* js */
+function forclear() {
+    document.getElementById("output") .innerHTML = "0";
+}
